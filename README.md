@@ -42,8 +42,7 @@ Today I learned about the differences between Convolutional Neural Networks & Fu
 * Types of Layers:
   * Convolutional layer: features of the image get extracted within this layer
     * a filter passes over the image and repeats the process of scanning a few pixels at a time to create a feature map
-  * Pooling layer (downsampling): reduces the spatial volume of input image after convolution by maintaining only the most important info of each feature
-    * usually several rounds of convolution & pooling 
+  * Pooling layer (downsampling): reduces the spatial volume of input image after convolution by maintaining only the most important information of each feature
   * Fully connected layer: takes the output of convolution/pooling and predicts the best label to describe the image
     *  goes through its own backpropagation process to determine the most accurate weights for each neuron
 
