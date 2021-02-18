@@ -32,3 +32,22 @@ Here is the link to my final Kaggle Notebook that I uploaded to this repository:
 I learned about algorithmic bias and the importance of data collection because depending on the data used to train a machine learning model, it could potentially cause the program to make decisions that further inequality and negative stereotypes. During the talk, I also learned about how implicit biases develop and influence our behaviors.
 1. Machine Learning or AI concepts were utilized in the design of the "Survival of the Best Fit" game because the algorithm first reads through past applicants' CVs and gathers info about whether or not they were hired. Using large amounts of data, the model then learns what makes a candidate good or bad by doing its best to replicate the hiring decision process, which is where concerns arise about how our own human biases can appear in datasets without us even realizing it.
 2. A real-world example of a biased machine learning model is the racial biases within many facial recognition systems that are used today. To make this model more fair, inclusive, and equitable, I think it is crucial to overcome the issue of a lack of diversity in the datasets, or the images that are used to train the models. By having more diverse datasets, the algorithms may be able to develop more consistent accuracies across various races of individuals. Another possible idea is using race-specific training procedures and algorithms to minimize errors. I chose this specific example of a biased model because with AI becoming increasingly crucial to the lives of the general public, it’s important that modern-day racism isn’t translated to emerging technologies, especially one like facial recognition that is utilized in such a multitude of ways (law enforcement, security, etc).
+
+#### Day 10 (February 17, 2021): 
+Today I learned about the differences between Convolutional Neural Networks & Fully Connected Neural Networks as well as the types of layers in a CNN architecture.
+
+*Convolutional Neural Networks:*
+* Specializes in image recognition and computer vision tasks
+  * Since images are composed of smaller details, it analyzes each feature in isolation to make a decision about the full image 
+* Types of Layers:
+  * Convolutional layer: features of the image get extracted within this layer
+    * a filter passes over the image and repeats the process of scanning a few pixels at a time to create a feature map
+  * Pooling layer (downsampling): reduces the spatial volume of input image after convolution by maintaining only the most important info of each feature
+    * usually several rounds of convolution & pooling 
+  * Fully connected layer: takes the output of convolution/pooling and predicts the best label to describe the image
+    *  goes through its own backpropagation process to determine the most accurate weights for each neuron
+
+*Fully Connected Neural Networks:*
+* Classic neural network architecture: all neurons connect to all neurons in the next layer
+* Inefficient for computer vision tasks 
+  * Images are very large inputs, so it would require too many connections & network parameters)
