@@ -50,3 +50,6 @@ Today I learned about the differences between Convolutional Neural Networks & Fu
 * Classic neural network architecture: all neurons connect to all neurons in the next layer
 * Inefficient for computer vision tasks 
   * Images are very large inputs, so it would require too many connections & network parameters)
+
+#### Day 11 (February 18, 2021):
+Today I developed a CNN for classifying MNIST datasets, evaluated the performance of the final model, and used it to make predictions on new images. While working on the code, I followed [this guide](https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-from-scratch-for-mnist-handwritten-digit-classification/). Here is the link to my final Google Colab Notebook that I uploaded to this repository: https://github.com/angchoi/SureStart-VAIL/blob/main/CNN-for-MNIST-Classification.ipynb
