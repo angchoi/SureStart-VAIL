@@ -53,3 +53,13 @@ Today I learned about the differences between Convolutional Neural Networks & Fu
 
 #### Day 11 (February 18, 2021):
 Today I developed a CNN for classifying MNIST datasets, evaluated the performance of the final model, and used it to make predictions on new images. While working on the code, I followed [this guide](https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-from-scratch-for-mnist-handwritten-digit-classification/). Here is the link to my final Google Colab Notebook that I uploaded to this repository: https://github.com/angchoi/SureStart-VAIL/blob/main/CNN-for-MNIST-Classification.ipynb
+
+#### Day 12 (February 19, 2021):
+Today I used [this guide](https://keras.io/examples/vision/image_classification_from_scratch/) to work on the trask of training an image classifier from scratch on the Kaggle Cats vs Dogs binary classification dataset. My final Google Colab Notebook can be found here: https://github.com/angchoi/SureStart-VAIL/blob/main/Image_Classification_from_Scratch.ipynb.
+
+#### Day 16 (February 23, 2021):
+The rectified linear activation function (ReLU) is a piecewise linear function that will output the input directly if it is positive and output zero otherwise. It has become the default activation function when developing many types of neural networks, as it overcomes the vanishing gradient problem and therefore allows models to learn faster and achieve better performance. One use case of ReLU is with Convolutional Neural Networks (CNNs) in order to help increase the non-linearity in images. It can be used as the activation function on the filter maps and pooling layer that follows. In general, the main advantages of using ReLU include:
+1. Cheaper Computations: requires just a simple max() function; no need for the use of an exponential calculation like with tanh and sigmoid
+2. Spare Representation: the activation of hidden layers can contain one or more true zero values (this is a desirable property as it can speed up learning and simplify the model)
+3. Linear Behavior: models are easier to optimize
+4. Train Deep Networks: "reach their best performance without requiring any unsupervised pre-training on purely supervised tasks with large labeled datasets"
