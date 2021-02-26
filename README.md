@@ -63,3 +63,8 @@ The rectified linear activation function (ReLU) is a piecewise linear function t
 2. Spare Representation: the activation of hidden layers can contain one or more true zero values (this is a desirable property as it can speed up learning and simplify the model)
 3. Linear Behavior: models are easier to optimize
 4. Train Deep Networks: "reach their best performance without requiring any unsupervised pre-training on purely supervised tasks with large labeled datasets"
+
+#### Day 17 (February 24, 2021):
+Today I  learned about how to choose and implement various loss functions for regression and binary classification, especially the mean squared error loss. I also learned how to incorporate L2 regularization in our models while working on creating a simple CNN to predict house prices. The dataset used can be found [here](https://drive.google.com/file/d/1GfvKA0qznNVknghV4botnNxyH-KvODOC/view), and the tutorial that I followed is [here](https://hackernoon.com/build-your-first-neural-network-to-predict-house-prices-with-keras-3fb0839680f4). 
+
+The link to my final Google Colab Notebook is: https://github.com/angchoi/SureStart-VAIL/blob/main/Predict_House_Prices.ipynb.
