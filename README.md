@@ -57,6 +57,11 @@ Today I developed a CNN for classifying MNIST datasets, evaluated the performanc
 #### Day 12 (February 19, 2021):
 Today I used [this guide](https://keras.io/examples/vision/image_classification_from_scratch/) to work on the trask of training an image classifier from scratch on the Kaggle Cats vs Dogs binary classification dataset. My final Google Colab Notebook can be found here: https://github.com/angchoi/SureStart-VAIL/blob/main/Image_Classification_from_Scratch.ipynb.
 
+#### Day 15 (February 22, 2021):
+Today I gained a greater understanding of machine learning ethics & the different types of bias, as well as the importance of context in data collection and algorithm implementation. I also learned about various tools that can be used to assess bias and help promote transparency. 
+
+I then worked on a Gender Classification Model using [this dataset](https://www.kaggle.com/thanaphatj/gender-classification-of-facial-images-cnn/#data) of facial images and [this Kaggle notebook](https://www.kaggle.com/thanaphatj/gender-classification-of-facial-images-cnn) as a guide. My final code can be found here: https://github.com/angchoi/SureStart-VAIL/blob/main/Gender-Classification-of-Facial-Images.ipynb
+
 #### Day 16 (February 23, 2021):
 The rectified linear activation function (ReLU) is a piecewise linear function that will output the input directly if it is positive and output zero otherwise. It has become the default activation function when developing many types of neural networks, as it overcomes the vanishing gradient problem and therefore allows models to learn faster and achieve better performance. One use case of ReLU is with Convolutional Neural Networks (CNNs) in order to help increase the non-linearity in images. It can be used as the activation function on the filter maps and pooling layer that follows. In general, the main advantages of using ReLU include:
 1. Cheaper Computations: requires just a simple max() function; no need for the use of an exponential calculation like with tanh and sigmoid
