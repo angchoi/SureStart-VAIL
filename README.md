@@ -73,3 +73,10 @@ The rectified linear activation function (ReLU) is a piecewise linear function t
 Today I  learned about how to choose and implement various loss functions for regression and binary classification, especially the mean squared error loss. I also learned how to incorporate L2 regularization in our models while working on creating a simple CNN to predict house prices. The dataset used can be found [here](https://drive.google.com/file/d/1GfvKA0qznNVknghV4botnNxyH-KvODOC/view), and the tutorial that I followed is [here](https://hackernoon.com/build-your-first-neural-network-to-predict-house-prices-with-keras-3fb0839680f4). 
 
 The link to my final Google Colab Notebook is: https://github.com/angchoi/SureStart-VAIL/blob/main/Predict_House_Prices.ipynb.
+
+#### Day 18 (February 25, 2021):
+Today I learned about handling overfitting in deep learning models using the [Twitter US Airline Sentiment data set](https://www.kaggle.com/crowdflower/twitter-airline-sentiment). I used [this hands-on sentiment analysis tutorial](https://towardsdatascience.com/handling-overfitting-in-deep-learning-models-c760ee047c6e#:~:text=Overfitting%20occurs%20when%20you%20achieve,are%20irrelevant%20in%20other%20data.&text=The%20best%20option%20is%20to%20get%20more%20training%20data), which included three different approaches for achieving better generalization. 
+
+My code can be found here: https://github.com/angchoi/SureStart-VAIL/blob/main/Handling_Overfitting_with_Twitter_Data.ipynb.
+
+I also went back to my housing prices model from yesterday and changed the loss to regression based functions. I observed that using mean squared error resulted in the loss curves for training and validation data to be slightly closer together than the original loss function of binary cross entropy. The loss curves for training & validation then got even closer (almost completely overlapping) when I used mean absolute error instead.
