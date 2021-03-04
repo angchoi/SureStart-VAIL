@@ -80,3 +80,16 @@ Today I learned about handling overfitting in deep learning models using the [Tw
 My code can be found here: https://github.com/angchoi/SureStart-VAIL/blob/main/Handling_Overfitting_with_Twitter_Data.ipynb.
 
 I also went back to my housing prices model from yesterday and changed the loss to regression based functions. I observed that using mean squared error resulted in the loss curves for training and validation data to be slightly closer together than the original loss function of binary cross entropy. The loss curves for training & validation then got even closer (almost completely overlapping) when I used mean absolute error instead.
+
+#### Day 19 (February 26, 2021):
+I first worked on [this Upsampling Tutorial](https://machinelearningmastery.com/upsampling-and-transpose-convolution-layers-for-generative-adversarial-networks/) about adding upscaling layers to a deep learning model. In particular, I discovered how to use the UpSampling 2D Layer (simply doubles the dimensions of the input) and the Conv2DTranspose Layer (performs an inverse convolution operation) when generating images. I have uploaded my code to this repository here: https://github.com/angchoi/SureStart-VAIL/blob/main/Upsampling_Tutorial.ipynb
+
+Then, I followed [this Autoencoder Tutorial](https://blog.keras.io/building-autoencoders-in-keras.html) with actual code and visualization for autoencoder based reconstruction and noise removal. I was able to work on code examples of the following models: a simple autoencoder based on a fully-connected layer, sparse autoencoder, deep fully-connected autoencoder, deep convolutional autoencoder, image denoising model, sequence-to-sequence autoencoder, and variational autoencoder. The link to my code is here: 
+
+#### Day 22 (March 1, 2021):
+Today looked through [this beginner friendly guide](https://towardsdatascience.com/a-list-of-beginner-friendly-nlp-projects-using-pre-trained-models-dc4768b4bec0) with six different Natural Language Processing projects using pre-trained models. I chose to work on Project #4, Language identifier. *need to add code*
+
+I then learned about the ethical implications of big NLP models such as GPT-2 through [this article](https://openai.com/blog/better-language-models/).
+
+#### Day 23 (March 2, 2021):
+I worked on an emotion detection project using OpenCV and Keras by following [this tutorial](https://medium.com/swlh/emotion-detection-using-opencv-and-keras-771260bbd7f7). *need to add code*
