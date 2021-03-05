@@ -92,4 +92,4 @@ Today looked through [this beginner friendly guide](https://towardsdatascience.c
 I then learned about the ethical implications of big NLP models such as GPT-2 through [this article](https://openai.com/blog/better-language-models/).
 
 #### Day 23 (March 2, 2021):
-I worked on an emotion detection project using OpenCV and Keras by following [this tutorial](https://medium.com/swlh/emotion-detection-using-opencv-and-keras-771260bbd7f7). *need to add code*
+I worked on an emotion detection project using OpenCV and Keras by following [this tutorial](https://medium.com/swlh/emotion-detection-using-opencv-and-keras-771260bbd7f7). I was able to gain a basic understanding of computer vision and how machines can detect the front face of a person to "read" emotions. I uploaded my code for this model here: https://github.com/angchoi/SureStart-VAIL/blob/main/Emotion%20Detection%20Project.ipynb.
