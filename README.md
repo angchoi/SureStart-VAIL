@@ -87,14 +87,15 @@ I first worked on [this Upsampling Tutorial](https://machinelearningmastery.com/
 Then, I followed [this Autoencoder Tutorial](https://blog.keras.io/building-autoencoders-in-keras.html) with actual code and visualization for autoencoder based reconstruction and noise removal. I was able to work on code examples of the following models: a simple autoencoder based on a fully-connected layer, sparse autoencoder, deep fully-connected autoencoder, deep convolutional autoencoder, image denoising model, sequence-to-sequence autoencoder, and variational autoencoder. The link to my code is here: https://github.com/angchoi/SureStart-VAIL/blob/main/Autoencoder_Tutorial.ipynb
 
 #### Day 22 (March 1, 2021):
-Today looked through [this beginner friendly guide](https://towardsdatascience.com/a-list-of-beginner-friendly-nlp-projects-using-pre-trained-models-dc4768b4bec0) with six different Natural Language Processing projects using pre-trained models. I chose to work on Project #4, Language identifier. *need to add code*
+Today looked through [this beginner friendly guide](https://towardsdatascience.com/a-list-of-beginner-friendly-nlp-projects-using-pre-trained-models-dc4768b4bec0) with six different Natural Language Processing projects using pre-trained models. I chose to work on Project #4, Language identifier. 
 
 I then learned about the ethical implications of big NLP models such as GPT-2 through [this article](https://openai.com/blog/better-language-models/).
 
 #### Day 23 (March 2, 2021):
 I worked on an emotion detection project using OpenCV and Keras by following [this tutorial](https://medium.com/swlh/emotion-detection-using-opencv-and-keras-771260bbd7f7). I was able to gain a basic understanding of computer vision and how machines can detect the front face of a person to "read" emotions. I uploaded my code for this model here: https://github.com/angchoi/SureStart-VAIL/blob/main/Emotion%20Detection%20Project.ipynb.
 
-#### Day 23 (March 2, 2021):
-
 #### Day 25 (March 4, 2021):
 There are no specific action items for today, but I made sure to look over the Makeathon guide and rubric to prepare for the next two weeks. I also watched a few videos from the Summer 2020 Makeathon to gain a better understanding of the expectations for the final presentation.
+
+#### Makeathon Project
+All content (slides presentation, model code, demo video, etc.) for my group's makeathon project on aggression detection for the problem of road rage can be found in this Github repository: https://github.com/Elignesin/Makeathon.
